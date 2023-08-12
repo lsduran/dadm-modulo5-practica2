@@ -7,23 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B746B9882A85ED0600B100BD /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B746B9872A85ED0600B100BD /* TabBarController.swift */; };
 		B7ACDC612A7EA180004F31CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC602A7EA180004F31CE /* AppDelegate.swift */; };
 		B7ACDC632A7EA180004F31CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC622A7EA180004F31CE /* SceneDelegate.swift */; };
-		B7ACDC652A7EA180004F31CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC642A7EA180004F31CE /* ViewController.swift */; };
 		B7ACDC682A7EA180004F31CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ACDC662A7EA180004F31CE /* Main.storyboard */; };
 		B7ACDC6A2A7EA182004F31CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7ACDC692A7EA182004F31CE /* Assets.xcassets */; };
 		B7ACDC6D2A7EA182004F31CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7ACDC6B2A7EA182004F31CE /* LaunchScreen.storyboard */; };
+		B7ACDC762A7EA437004F31CE /* CGF Locust Resistance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7ACDC752A7EA437004F31CE /* CGF Locust Resistance.ttf */; };
+		B7ACDC782A7EA5BE004F31CE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC772A7EA5BE004F31CE /* HomeViewController.swift */; };
+		B7ACDC7D2A7EA84A004F31CE /* MenuOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC7C2A7EA84A004F31CE /* MenuOption.swift */; };
+		B7ACDC802A7EAA27004F31CE /* MenuOptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC7F2A7EAA27004F31CE /* MenuOptionCell.swift */; };
+		B7ACDC822A7EB10F004F31CE /* GamesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC812A7EB10F004F31CE /* GamesController.swift */; };
+		B7ACDC842A7ECA9D004F31CE /* WeaponsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC832A7ECA9D004F31CE /* WeaponsController.swift */; };
+		B7ACDC862A7ECC41004F31CE /* WeaponCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC852A7ECC41004F31CE /* WeaponCell.swift */; };
+		B7ACDC882A7ECF02004F31CE /* Weapon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ACDC872A7ECF02004F31CE /* Weapon.swift */; };
+		B7ACDC8C2A7EDE43004F31CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B7ACDC8A2A7EDE43004F31CE /* Localizable.strings */; };
+		B7BF1D6E2A87D9E50018271C /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF1D6D2A87D9E50018271C /* UILabelExtension.swift */; };
+		B7BF1D992A8815FB0018271C /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7BF1D982A8815FB0018271C /* AppConstants.swift */; };
+		B7E0FBDF2A8701C10044CAB1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7E0FBDE2A8701C10044CAB1 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B746B9872A85ED0600B100BD /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		B7ACDC5D2A7EA180004F31CE /* GOW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GOW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7ACDC602A7EA180004F31CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7ACDC622A7EA180004F31CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7ACDC642A7EA180004F31CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7ACDC672A7EA180004F31CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7ACDC692A7EA182004F31CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7ACDC6C2A7EA182004F31CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7ACDC6E2A7EA182004F31CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7ACDC752A7EA437004F31CE /* CGF Locust Resistance.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CGF Locust Resistance.ttf"; sourceTree = "<group>"; };
+		B7ACDC772A7EA5BE004F31CE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B7ACDC7C2A7EA84A004F31CE /* MenuOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOption.swift; sourceTree = "<group>"; };
+		B7ACDC7F2A7EAA27004F31CE /* MenuOptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCell.swift; sourceTree = "<group>"; };
+		B7ACDC812A7EB10F004F31CE /* GamesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesController.swift; sourceTree = "<group>"; };
+		B7ACDC832A7ECA9D004F31CE /* WeaponsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsController.swift; sourceTree = "<group>"; };
+		B7ACDC852A7ECC41004F31CE /* WeaponCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponCell.swift; sourceTree = "<group>"; };
+		B7ACDC872A7ECF02004F31CE /* Weapon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weapon.swift; sourceTree = "<group>"; };
+		B7ACDC8B2A7EDE43004F31CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = GOW/Base.lproj/Localizable.strings; sourceTree = SOURCE_ROOT; };
+		B7ACDC8D2A7EDFC9004F31CE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Main.strings; sourceTree = "<group>"; };
+		B7ACDC8E2A7EDFC9004F31CE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B7ACDC8F2A7EDFC9004F31CE /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = ../it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B7ACDC902A7EE003004F31CE /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Main.strings"; sourceTree = "<group>"; };
+		B7ACDC912A7EE003004F31CE /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		B7ACDC922A7EE003004F31CE /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "../es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B7BF1D6D2A87D9E50018271C /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
+		B7BF1D982A8815FB0018271C /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B7E0FBDE2A8701C10044CAB1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +86,83 @@
 		B7ACDC5F2A7EA180004F31CE /* GOW */ = {
 			isa = PBXGroup;
 			children = (
+				B7BF1D972A8815EA0018271C /* Globals */,
+				B7E0FBDD2A8701AF0044CAB1 /* Extensions */,
+				B7ACDC892A7EDDE2004F31CE /* Localization */,
+				B7ACDC7E2A7EAA07004F31CE /* Views */,
+				B7ACDC7A2A7EA81E004F31CE /* Models */,
+				B7ACDC792A7EA5C8004F31CE /* Controllers */,
+				B7ACDC742A7EA400004F31CE /* Fonts */,
 				B7ACDC602A7EA180004F31CE /* AppDelegate.swift */,
 				B7ACDC622A7EA180004F31CE /* SceneDelegate.swift */,
-				B7ACDC642A7EA180004F31CE /* ViewController.swift */,
 				B7ACDC662A7EA180004F31CE /* Main.storyboard */,
 				B7ACDC692A7EA182004F31CE /* Assets.xcassets */,
 				B7ACDC6B2A7EA182004F31CE /* LaunchScreen.storyboard */,
 				B7ACDC6E2A7EA182004F31CE /* Info.plist */,
 			);
 			path = GOW;
+			sourceTree = "<group>";
+		};
+		B7ACDC742A7EA400004F31CE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACDC752A7EA437004F31CE /* CGF Locust Resistance.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B7ACDC792A7EA5C8004F31CE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACDC772A7EA5BE004F31CE /* HomeViewController.swift */,
+				B7ACDC812A7EB10F004F31CE /* GamesController.swift */,
+				B7ACDC832A7ECA9D004F31CE /* WeaponsController.swift */,
+				B746B9872A85ED0600B100BD /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B7ACDC7A2A7EA81E004F31CE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACDC7C2A7EA84A004F31CE /* MenuOption.swift */,
+				B7ACDC872A7ECF02004F31CE /* Weapon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B7ACDC7E2A7EAA07004F31CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACDC7F2A7EAA27004F31CE /* MenuOptionCell.swift */,
+				B7ACDC852A7ECC41004F31CE /* WeaponCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7ACDC892A7EDDE2004F31CE /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				B7ACDC8A2A7EDE43004F31CE /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		B7BF1D972A8815EA0018271C /* Globals */ = {
+			isa = PBXGroup;
+			children = (
+				B7BF1D982A8815FB0018271C /* AppConstants.swift */,
+			);
+			path = Globals;
+			sourceTree = "<group>";
+		};
+		B7E0FBDD2A8701AF0044CAB1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B7E0FBDE2A8701C10044CAB1 /* StringExtension.swift */,
+				B7BF1D6D2A87D9E50018271C /* UILabelExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,6 +207,8 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
+				"es-419",
 			);
 			mainGroup = B7ACDC542A7EA180004F31CE;
 			productRefGroup = B7ACDC5E2A7EA180004F31CE /* Products */;
@@ -125,6 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7ACDC8C2A7EDE43004F31CE /* Localizable.strings in Resources */,
+				B7ACDC762A7EA437004F31CE /* CGF Locust Resistance.ttf in Resources */,
 				B7ACDC6D2A7EA182004F31CE /* LaunchScreen.storyboard in Resources */,
 				B7ACDC6A2A7EA182004F31CE /* Assets.xcassets in Resources */,
 				B7ACDC682A7EA180004F31CE /* Main.storyboard in Resources */,
@@ -138,9 +240,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7ACDC652A7EA180004F31CE /* ViewController.swift in Sources */,
 				B7ACDC612A7EA180004F31CE /* AppDelegate.swift in Sources */,
+				B7ACDC802A7EAA27004F31CE /* MenuOptionCell.swift in Sources */,
+				B7ACDC7D2A7EA84A004F31CE /* MenuOption.swift in Sources */,
+				B746B9882A85ED0600B100BD /* TabBarController.swift in Sources */,
+				B7BF1D6E2A87D9E50018271C /* UILabelExtension.swift in Sources */,
+				B7ACDC842A7ECA9D004F31CE /* WeaponsController.swift in Sources */,
+				B7ACDC822A7EB10F004F31CE /* GamesController.swift in Sources */,
+				B7ACDC862A7ECC41004F31CE /* WeaponCell.swift in Sources */,
 				B7ACDC632A7EA180004F31CE /* SceneDelegate.swift in Sources */,
+				B7ACDC782A7EA5BE004F31CE /* HomeViewController.swift in Sources */,
+				B7BF1D992A8815FB0018271C /* AppConstants.swift in Sources */,
+				B7E0FBDF2A8701C10044CAB1 /* StringExtension.swift in Sources */,
+				B7ACDC882A7ECF02004F31CE /* Weapon.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +263,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				B7ACDC672A7EA180004F31CE /* Base */,
+				B7ACDC8D2A7EDFC9004F31CE /* it */,
+				B7ACDC902A7EE003004F31CE /* es-419 */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +273,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				B7ACDC6C2A7EA182004F31CE /* Base */,
+				B7ACDC8E2A7EDFC9004F31CE /* it */,
+				B7ACDC912A7EE003004F31CE /* es-419 */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B7ACDC8A2A7EDE43004F31CE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7ACDC8B2A7EDE43004F31CE /* Base */,
+				B7ACDC8F2A7EDFC9004F31CE /* it */,
+				B7ACDC922A7EE003004F31CE /* es-419 */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -230,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
